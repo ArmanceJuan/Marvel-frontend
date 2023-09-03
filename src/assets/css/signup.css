@@ -1,0 +1,22 @@
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  height: 20vh;
+  margin: 10vh auto;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.2em;
+}
+
+.signup-form input {
+  width: 75%;
+  height: 35px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: black;
+  border: 0.5px solid rgb(36, 36, 36);
+  color: white;
+}

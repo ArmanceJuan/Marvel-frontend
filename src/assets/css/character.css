@@ -1,0 +1,56 @@
+.character-article {
+  display: flex;
+  margin: 60px auto;
+  width: 85vw;
+  height: 80vh;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.2em;
+}
+
+.comics-character {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  height: 50vh;
+  width: 50vw;
+}
+.img-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.comics-character img {
+  margin: 20px 0;
+  padding-right: 15px;
+  width: 140px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 5px 8px 8px 0 rgb(58, 58, 58);
+}
+
+.character img {
+  height: 100%;
+  width: 30vw;
+  object-fit: cover;
+  margin-right: 60px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+p {
+  width: 25vw;
+  text-align: justify;
+  margin-top: 40px;
+  font-size: 15px;
+  line-height: 1.3em;
+}

@@ -1,0 +1,29 @@
+.home-background {
+  background-image: url("../img/background-01.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.home {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  position: fixed;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.2em;
+}
+
+.home h1 {
+  font-size: 80px;
+  width: 100%;
+  text-align: center;
+}
